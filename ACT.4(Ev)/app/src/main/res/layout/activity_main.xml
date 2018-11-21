@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#000">
+
+        <!-- Lado Izquierdo-->
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:columnCount="1"
+            android:orientation="vertical"
+            android:rowCount="4">
+
+            <TextView
+                android:id="@+id/alb1"
+                android:layout_height="170dp"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:layout_rowWeight="1"
+                android:background="#d94949"
+                android:gravity="center"
+                android:text="Album 1"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alb2"
+                android:layout_height="170dp"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:layout_rowWeight="1"
+                android:background="#4babc1"
+                android:gravity="center"
+                android:text="Album 2"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alb3"
+                android:layout_height="170dp"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:layout_rowWeight="1"
+                android:background="#a4de5e"
+                android:gravity="center"
+                android:text="Album 3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alb4"
+                android:layout_height="170dp"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:layout_rowWeight="1"
+                android:background="#dfd349"
+                android:gravity="center"
+                android:text="Album 4"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#000">
+
+        <GridLayout
+            android:id="@+id/gd01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="20">
+
+
+            <!--              <TextView
+                            android:id="@+id/tv1"
+                            style="@style/fotos"
+                            android:text="Foto 1" />
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            style="@style/fotos"
+                            android:text="Foto 2" />
+
+
+                      <TextView
+                            android:id="@+id/tv3"
+                            style="@style/fotos"
+                            android:text="Foto 3" />
+
+                        <TextView
+                            android:id="@+id/tv4"
+                            style="@style/fotos"
+                            android:text="Foto 4" />
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            style="@style/fotos"
+                            android:text="Foto 5" />
+
+                        <TextView
+                            android:id="@+id/tv6"
+                            style="@style/fotos"
+                            android:text="Foto 6" />
+
+                        <TextView
+                            android:id="@+id/tv7"
+                            style="@style/fotos"
+                            android:text="Foto 7" />
+
+                        <TextView
+                            android:id="@+id/tv8"
+                            style="@style/fotos"
+                            android:text="Foto 8" />
+
+                        <TextView
+                            android:id="@+id/tv9"
+                            style="@style/fotos"
+                            android:text="Foto 9" />
+
+                        <TextView
+                            android:id="@+id/tv10"
+                            style="@style/fotos"
+                            android:text="Foto 10" />
+
+                        <TextView
+                            android:id="@+id/tv11"
+                            style="@style/fotos"
+                            android:text="Foto 11" />
+
+                        <TextView
+                            android:id="@+id/tv12"
+                            style="@style/fotos"
+                            android:text="Foto 12" />
+
+                        <TextView
+                            android:id="@+id/tv13"
+                            style="@style/fotos"
+                            android:text="Foto 13" />
+
+                        <TextView
+                            android:id="@+id/tv14"
+                            style="@style/fotos"
+                            android:text="Foto 14" />
+
+                        <TextView
+                            android:id="@+id/tv15"
+                            style="@style/fotos"
+                            android:text="Foto 15" />
+
+                        <TextView
+                            android:id="@+id/tv16"
+                            style="@style/fotos"
+                            android:text="Foto 16" />
+
+                        <TextView
+                            android:id="@+id/tv17"
+                            style="@style/fotos"
+                            android:text="Foto 17" />
+
+                        <TextView
+                            android:id="@+id/tv18"
+                            style="@style/fotos"
+                            android:text="Foto 18" />
+
+                        <TextView
+                            android:id="@+id/tv19"
+                            style="@style/fotos"
+                            android:text="Foto 19" />
+
+                        <TextView
+                            android:id="@+id/tv20"
+                            style="@style/fotos"
+                            android:text="Foto 20" />
+                            -->
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>
